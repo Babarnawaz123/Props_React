@@ -6,7 +6,7 @@ function Skill() {
   const handleCheckboxChange = (event) => {
     console.log(event.target.value, event.target.checked);
     if (event.target.checked) {
-      setSkill([...Skill, event.target.value]); // Add
+      setSkill([...Skill, event.target.value]); // Add  ... is a spread operator used to add new value into the array
     } else {
       setSkill(Skill.filter((s) => s !== event.target.value)); // Remove
     }
