@@ -7,7 +7,7 @@ function User(props) {
       <ProductDetails ProName={props.ProName} ProId={props.ProId} ProDes={props.ProDes}/>
       <Example/>
       <Example2/>
-
+    
       {/*this is the Product Detail tag to connect with user funtion */}
     </div>
   );
@@ -36,4 +36,5 @@ export function Example(){
     <h1>this is mike</h1>
   )
   } 
+
 export default User;
