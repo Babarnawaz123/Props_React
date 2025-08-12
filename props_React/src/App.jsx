@@ -3,6 +3,7 @@ import Advance from './advance';
 import Wrapper from './wrapper';
 import { useState } from 'react';
 import Skill from './Skill';
+import Radio_dropDown from './radio_dropDown';
 function App() {    {/*this user tag will give data to user.jsx props*/}
 const [val,setVal] = useState("")
 const [Name,setName] = useState("")
@@ -53,7 +54,7 @@ return(
 <Skill/>
 {/*Handle Checkboxes, Get value from checkboxes */}
 
-
+<Radio_dropDown/>
 
 
 </div>

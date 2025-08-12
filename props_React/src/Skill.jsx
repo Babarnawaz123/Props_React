@@ -4,6 +4,7 @@ function Skill() {
   const [Skill, setSkill] = useState([]);
 
   const handleCheckboxChange = (event) => {
+    
     console.log(event.target.value, event.target.checked);
     if (event.target.checked) {
       setSkill([...Skill, event.target.value]); // Add  ... is a spread operator used to add new value into the array
