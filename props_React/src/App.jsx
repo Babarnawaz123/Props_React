@@ -1,3 +1,4 @@
+import "./App.css";
 import User from  './assets/User'
 import Advance from './advance';
 import Wrapper from './wrapper';
@@ -6,6 +7,9 @@ import Skill from './Skill';
 import Radio_dropDown from './radio_dropDown';
 import Table_map from './table_map';
 import Sample_table from './Sample_table';
+import Reuse_Component from './Reuse_Componenet';
+import Hooks from "./hooks";
+
 function App() {    {/*this user tag will give data to user.jsx props*/}
 const [val,setVal] = useState("")
 const [Name,setName] = useState("")
@@ -62,9 +66,19 @@ return(
 <br /><br />
 <hr />
 <Sample_table/>
+
+<hr />
+<Reuse_Component/>
+
+<hr />
+
+<Hooks/>
+
+
+
+
 </div>
  
-
 );
 
 }
