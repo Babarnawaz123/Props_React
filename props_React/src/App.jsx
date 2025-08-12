@@ -4,6 +4,8 @@ import Wrapper from './wrapper';
 import { useState } from 'react';
 import Skill from './Skill';
 import Radio_dropDown from './radio_dropDown';
+import Table_map from './table_map';
+import Sample_table from './Sample_table';
 function App() {    {/*this user tag will give data to user.jsx props*/}
 const [val,setVal] = useState("")
 const [Name,setName] = useState("")
@@ -55,8 +57,11 @@ return(
 {/*Handle Checkboxes, Get value from checkboxes */}
 
 <Radio_dropDown/>
-
-
+<hr />
+<Table_map/>
+<br /><br />
+<hr />
+<Sample_table/>
 </div>
  
 
