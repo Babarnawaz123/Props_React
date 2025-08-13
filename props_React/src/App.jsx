@@ -10,6 +10,7 @@ import Sample_table from "./Sample_table";
 import Reuse_Component from "./Reuse_Componenet";
 import Hooks from "./hooks";
 import UseEffectProps from "./UseEffect_Props";
+import ComponentLifeCycle from "./CompLifeCycle";
 
 function App() {
   {
@@ -21,6 +22,7 @@ function App() {
   const [Email, setEmail] = useState("");
   const [count, setCount] = useState(0); // Added count state
   const [Data, setData] = useState([]); // Added Data state
+  const [isMounted, setIsMounted] = useState(true); // Added isMounted state
   return (
     <div>
       <User
@@ -110,7 +112,9 @@ function App() {
       <Reuse_Component />
       <hr />
       <Hooks />
-      <UseEffectProps Count={count} Data={Data} />
+      <UseEffectProps count={count} data={Data} />
+      <hr />
+      <ComponentLifeCycle count={count} data={Data} isMounted={isMounted} />
     </div>
   );
 }

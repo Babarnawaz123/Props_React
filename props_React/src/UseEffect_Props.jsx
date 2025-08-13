@@ -6,14 +6,18 @@ function UseEffectProps() {
     console.log("Counter button clicked");
   };
 
-  useEffect(() => {
-    // it controll the side Effects of the component by using Props
-    handleCounter();
-  }, [counter]);
+  const handleData = () => {
+    console.log("Data button clicked");
+  };
 
   useEffect(() => {
     // it controll the side Effects of the component by using Props
     handleCounter();
+  }, []);
+
+  useEffect(() => {
+    // it controll the side Effects of the component by using Props
+    handleData();
   }, [data]);
 
   return (
