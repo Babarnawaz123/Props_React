@@ -7,62 +7,195 @@ function InlineCss() {
       <p>This component uses inline CSS styling.</p>
       <div
         style={{
-          borderRadius: "20px",
-          width: "401px",
-          height: "600px",
-          backgroundColor: "lightblue",
           display: "flex",
-          flexDirection: "column",
-          justifyContent: "start",
-          alignItems: "center",
-          marginTop: "20px",
+          justifyContent: "space-between",
+          marginRight: "20px",
         }}
       >
-        <img
-          src={profileImg}
-          alt="img profile"
-          style={{
-            borderRadius: "50%",
-            width: "200px",
-            height: "200px",
-            paddingTop: "20px",
-          }}
-        />
         <div
           style={{
-            width: "300px",
-            height: "250px",
-            backgroundColor: "",
-            marginTop: "50px",
-            flexWrap: "wrap",
+            borderRadius: "20px",
+            width: "401px",
+            height: "600px",
+            backgroundColor: "lightblue",
             display: "flex",
+            flexDirection: "column",
+            justifyContent: "start",
+            alignItems: "center",
+            marginTop: "20px",
+            marginBottom: "50px",
           }}
         >
-          <p
+          <img
+            src={profileImg}
+            alt="img profile"
             style={{
-              textAlign: "center",
-              padding: "0px",
-              margin: "0px",
-              gap: "5px",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: "33%",
+              borderRadius: "50%",
+              width: "200px",
+              height: "200px",
+              paddingTop: "20px",
+            }}
+          />
+          <div
+            style={{
+              width: "300px",
+              height: "250px",
+              backgroundColor: "",
+              marginTop: "50px",
+              flexWrap: "wrap",
+              display: "flex",
             }}
           >
-            Babar Nawaz.
-          </p>
-          <p
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                margin: "0px",
+                gap: "5px",
+                alignItems: "center",
+                justifyContent: "center",
+                marginLeft: "33%",
+              }}
+            >
+              Babar Nawaz.
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                marginBottom: "130px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus placeat quo alias quidem sapiente. Iure laboriosam nisi
+              velit odio officiis, ut temporibus ipsam soluta voluptatum,
+              delectus nostrum repudiandae illum suscipit!
+            </p>
+          </div>
+        </div>
+        {/*card 2 */}
+        <div
+          style={{
+            borderRadius: "20px",
+            width: "401px",
+            height: "600px",
+            backgroundColor: "lightblue",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "start",
+            alignItems: "center",
+            marginTop: "20px",
+            marginBottom: "50px",
+          }}
+        >
+          <img
+            src={profileImg}
+            alt="img profile"
             style={{
-              textAlign: "center",
-              padding: "0px",
-              marginBottom: "130px",
+              borderRadius: "50%",
+              width: "200px",
+              height: "200px",
+              paddingTop: "20px",
+            }}
+          />
+          <div
+            style={{
+              width: "300px",
+              height: "250px",
+              backgroundColor: "",
+              marginTop: "50px",
+              flexWrap: "wrap",
+              display: "flex",
             }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            placeat quo alias quidem sapiente. Iure laboriosam nisi velit odio
-            officiis, ut temporibus ipsam soluta voluptatum, delectus nostrum
-            repudiandae illum suscipit!
-          </p>
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                margin: "0px",
+                gap: "5px",
+                alignItems: "center",
+                justifyContent: "center",
+                marginLeft: "33%",
+              }}
+            >
+              Babar Nawaz.
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                marginBottom: "130px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus placeat quo alias quidem sapiente. Iure laboriosam nisi
+              velit odio officiis, ut temporibus ipsam soluta voluptatum,
+              delectus nostrum repudiandae illum suscipit!
+            </p>
+          </div>
+        </div>
+        {/*card 3 */}
+        <div
+          style={{
+            borderRadius: "20px",
+            width: "401px",
+            height: "600px",
+            backgroundColor: "lightblue",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "start",
+            alignItems: "center",
+            marginTop: "20px",
+            marginBottom: "50px",
+          }}
+        >
+          <img
+            src={profileImg}
+            alt="img profile"
+            style={{
+              borderRadius: "50%",
+              width: "200px",
+              height: "200px",
+              paddingTop: "20px",
+            }}
+          />
+          <div
+            style={{
+              width: "300px",
+              height: "250px",
+              backgroundColor: "",
+              marginTop: "50px",
+              flexWrap: "wrap",
+              display: "flex",
+            }}
+          >
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                margin: "0px",
+                gap: "5px",
+                alignItems: "center",
+                justifyContent: "center",
+                marginLeft: "33%",
+              }}
+            >
+              Babar Nawaz.
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                padding: "0px",
+                marginBottom: "130px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus placeat quo alias quidem sapiente. Iure laboriosam nisi
+              velit odio officiis, ut temporibus ipsam soluta voluptatum,
+              delectus nostrum repudiandae illum suscipit!
+            </p>
+          </div>
         </div>
       </div>
     </div>
