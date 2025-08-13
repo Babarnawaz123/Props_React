@@ -14,10 +14,12 @@ function Hooks() {
   // useEffect with empty dependency array runs only once after the initial render
   return (
     <div>
-      <h1>Hooks Example</h1>
-      <p>This is a simple example of using hooks in a functional component.</p>
+      <h1>Hooks</h1>
+      <p><b>UseEffect hook</b> with State.</p>
       <button onClick={() => setCounter(Counter + 1)}>Counter {Counter}</button>
       <button onClick={() => setData(data + 1)}>Data {data}</button>
+      <hr />
+     
     </div>
   );
 }
