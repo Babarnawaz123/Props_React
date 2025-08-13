@@ -11,6 +11,7 @@ import Reuse_Component from "./Reuse_Componenet";
 import Hooks from "./hooks";
 import UseEffectProps from "./UseEffect_Props";
 import ComponentLifeCycle from "./CompLifeCycle";
+import InlineCss from "./InlineCss";
 
 function App() {
   {
@@ -115,6 +116,9 @@ function App() {
       <UseEffectProps count={count} data={Data} />
       <hr />
       <ComponentLifeCycle count={count} data={Data} isMounted={isMounted} />
+      <hr />
+      <br />
+      <InlineCss />
     </div>
   );
 }

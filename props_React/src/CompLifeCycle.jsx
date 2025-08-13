@@ -34,12 +34,13 @@ function ComponentLifeCycle() {
           <h1>Component LifeCycle UseEffect Hook</h1>
           <p>
             This component demonstrates the use of the useEffect hook with
-            mounting, updating, and unmounting phases.
+            mounting, updating, and unmounting phases. the Change in Counter
+            Values are example of updating the component.
           </p>
-          <p>Current Count: {counter}</p>
+          <p>Current Count: {counter} </p> {/*updating the values  */}
           <p>Current Data: {data}</p>
-          <button onClick={() => setCounter(counter + 1)}>Counter</button>
-          <button onClick={() => setData(data + 1)}>Data</button>
+          <button onClick={() => setCounter(counter + 1)}> Counter</button>
+          <button onClick={() => setData(data + 1)}> Data</button>
         </>
       )}
       <button onClick={() => setIsMounted(!isMounted)}>
