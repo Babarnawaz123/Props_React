@@ -12,6 +12,7 @@ import Hooks from "./hooks";
 import UseEffectProps from "./UseEffect_Props";
 import ComponentLifeCycle from "./CompLifeCycle";
 import InlineCss from "./InlineCss";
+import UserProfileComponent from "./UserProfileComponent"; // Importing the UserProfileComponent
 
 function App() {
   {
@@ -119,6 +120,7 @@ function App() {
       <hr />
       <br />
       <InlineCss />
+      <UserProfileComponent />
     </div>
   );
 }

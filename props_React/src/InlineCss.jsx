@@ -57,7 +57,7 @@ function InlineCss() {
                 marginLeft: "33%",
               }}
             >
-              Babar Nawaz.
+              Babar Nawaz
             </p>
             <p
               style={{
@@ -119,7 +119,7 @@ function InlineCss() {
                 marginLeft: "33%",
               }}
             >
-              Babar Nawaz.
+              Muhammad Tariq
             </p>
             <p
               style={{
@@ -181,7 +181,7 @@ function InlineCss() {
                 marginLeft: "33%",
               }}
             >
-              Babar Nawaz.
+              Muhammad Hadi
             </p>
             <p
               style={{
