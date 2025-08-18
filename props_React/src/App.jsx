@@ -14,18 +14,15 @@ import ComponentLifeCycle from "./CompLifeCycle";
 import InlineCss from "./InlineCss";
 import UserProfileComponent from "./UserProfileComponent"; // Importing the UserProfileComponent
 import UseRefHook from "./UseRefHook";
-
 function App() {
-  {
-    /*this user tag will give data to user.jsx props*/
-  }
+  // this user tag will give data to user.jsx props
   const [val, setVal] = useState("");
   const [Name, setName] = useState("");
   const [Password, setPassword] = useState("");
   const [Email, setEmail] = useState("");
-  const [count, setCount] = useState(0); // Added count state
-  const [Data, setData] = useState([]); // Added Data state
-  const [isMounted, setIsMounted] = useState(true); // Added isMounted state
+  const [count] = useState(0); // Added count state
+  const [Data] = useState([]); // Added Data state
+  const [isMounted] = useState(true); // Added isMounted state
   return (
     <div>
       <User
@@ -125,6 +122,7 @@ function App() {
       <UserProfileComponent />
       <hr />
       <UseRefHook />
+      <hr />
     </div>
   );
 }
